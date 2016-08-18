@@ -1,0 +1,27 @@
+{
+  "name": "trash-parser",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cheerio": "^0.20.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "moment": "^2.14.1",
+    "morgan": "~1.7.0",
+    "promise": "^7.1.1",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0",
+    "slack": "^7.7.1",
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}

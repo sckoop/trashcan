@@ -1,0 +1,13 @@
+{
+  "globalDependencies": {
+    "cheerio": "registry:dt/cheerio#0.17.0+20160407085313",
+    "dotenv": "registry:dt/dotenv#2.0.0+20160327131627",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "form-data": "registry:dt/form-data#0.0.0+20160724024111",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160805072842",
+    "request": "registry:dt/request#0.0.0+20160726020908",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}
