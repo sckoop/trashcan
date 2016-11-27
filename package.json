@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "postinstall": "typings install",
+    "parse": "tsc -p . && node ./dist/parser.js"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
