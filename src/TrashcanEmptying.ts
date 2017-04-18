@@ -13,6 +13,6 @@ export class TrashcanEmptying {
     }
 
     public isRemindDateInFuture(): boolean {
-        return this.remindDate.diff(moment(), 'days') > 0;
+        return this.remindDate.diff(moment(), 'hour') > 0;
     }
 }
